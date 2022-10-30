@@ -124,3 +124,19 @@ for (var i = 0; i < finances.length; i++) {
         }
     }
 }
+
+for (var i = 0; i < netArray.length; i++) {
+    netChangeSum += netArray[i];
+}
+
+average = Math.round((netChangeSum / 86) * 100) / 100;
+
+analysis = 'Financial Analysis ' + '\n' +
+'--------------------' + '\n' +
+'Total Months: ' + months + '\n' +
+'Total: $' + total + '\n' +
+'Average Change: ' + average + '\n' +
+'Greatest Increase: ' + greatest[0] + ': $' + greatest[1] + '\n' +
+'Greatest Decrease: ' + least[0] + ': $' + least[1];
+
+console.log(analysis);
