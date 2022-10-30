@@ -136,7 +136,7 @@ analysis = 'Financial Analysis ' + '\n' +
 'Total Months: ' + months + '\n' +
 'Total: $' + total + '\n' +
 'Average Change: ' + average + '\n' +
-'Greatest Increase: ' + greatest[0] + ': $' + greatest[1] + '\n' +
-'Greatest Decrease: ' + least[0] + ': $' + least[1];
+'Greatest Increase: ' + greatest[0] + ' ($' + greatest[1] + ')\n' +
+'Greatest Decrease: ' + least[0] + ' ($' + least[1] + ')';
 
 console.log(analysis);
