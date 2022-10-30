@@ -86,3 +86,22 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099]
 ];
+
+// total number of months included in dataset
+// net total amount of profit/losses over entire period
+// average of changes in profit/losses over entire period
+// greatest increase in profits (date and amount) over entire period
+// greatest decrease in losses (date and amount) over entire period
+// code should print analysis to console
+
+
+var months = finances.length;
+var total = 0;
+var change = 0;
+var average;
+var net = 0;
+var netArray = [];
+var netChangeSum = 0;
+var analysis;
+var least = ['', 99999999999999];
+var greatest = ['', 0];
